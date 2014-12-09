@@ -478,7 +478,8 @@ span.pink {
 .latest figure .thumb {
 	display: block;
 }
-.latest figure .thumb img {
+.latest figure .thumb {
+	text-align: center;
 	border-bottom:1px dashed #c7b3a9;
 }
 .latest figure {
@@ -1418,4 +1419,12 @@ margin-top: 13px;
 
 .marg-mid {
 	margin: 0 auto;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
 }

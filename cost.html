@@ -3,16 +3,17 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html>
 <!--<![endif]-->
 <head>
 
 <!-- Basic Page Needs ==================================================
 ================================================== -->
 
-<meta charset="utf-8">
-<title>Freebix Responsive Site Template</title>
-<meta name="description" content="Place to put your description text">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Аренда автомобиля без водителя в Тюмени</title>
+<meta name="keywords" content="автомобиль напрокат, автопрокат, аренда автомобилей -тюмень, аренда автомобилей без водителя, аренда автомобилей тюмень, аренда без водителя -автомобиль, аренда машин, машина напрокат, прокат авто, прокат автомобилей -тюмень, прокат автомобилей без водителя, прокат автомобилей тюмень, прокат без водителя -автомобиль, прокат машин">
+<meta name="description" content="Аренда автомобиля без водителя в Тюмени">
 <meta name="author" content="">
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,7 +31,8 @@
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/screen.css">
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
-
+<link rel="stylesheet" href="css/table.css" type="text/css"/>
+<script src="js/table.js"></script>
 <!-- Favicons ==================================================
 ================================================== -->
 
@@ -42,12 +44,6 @@
 <!-- Google Fonts ==================================================
 ================================================== -->
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<style type="text/css">
-table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
-table.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
-table.tftable tr {background-color:#d4e3e5;}
-table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
-</style>
 </head>
 <body>
 
@@ -66,10 +62,8 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
       <div id="mainmenu">
         <ul class="sf-menu">
           <li><a href="index.html">Главная</a></li>
-          <li><a href="about.html">Автопарк</a></li>
-          <li><a href="portfolio.html">Заказ автомобиля</a></li>
-          <li><a href="blog.html" id="visited">Стоимость аренды</a></li>
-          <li><a href="features.html">условия арнеды/проката</a></li>
+          <li><a href="cost.html" id="visited">Стоимость аренды</a></li>
+          <li><a href="arend_condition.html">условия арнеды/проката</a></li>
           <li><a href="contact.html">Контакты</a></li>
         </ul>
       </div>
@@ -79,10 +73,8 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
       <form id="responsive-menu" action="#" method="post">
         <select>
           <option value="index.html">Главная</option>
-          <option value="about.html">Автопарк</option>
-          <option value="portfolio.html">Заказ автомобиля</option>
-          <option value="blog.html">Стоимость аренды</option>
-          <option value="features.html">условия арнеды/проката</option>
+          <option value="cost.html">Стоимость аренды</option>
+          <option value="arend_condition.html">условия арнеды/проката</option>
           <option value="contact.html">Контакты</option>
         </select>
       </form>
@@ -325,31 +317,6 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
       </tr>
       <tr>
       <td height="54">
-      <div style="text-align: center;"><span style="font-size: x-small; color: #000000;"><em><strong>&nbsp;</strong></em></span></div>
-      <div style="text-align: center;"><span style="font-size: medium; color: #000000;"><em><strong>Легковой Прицеп</strong></em></span></div>
-      </td>
-      <td>
-      <div style="text-align: center;"><span style="font-size: medium; color: #000000; background-color: #ffffff;"><strong>500 руб.</strong></span></div>
-      <div style="text-align: center;"><span style="font-size: medium; color: #000000; background-color: #ffffff;"><strong>сутки</strong></span></div>
-      </td>
-      <td>
-      <div style="text-align: center;">&nbsp;</div>
-      </td>
-      <td>
-      <div style="text-align: center;">&nbsp;</div>
-      </td>
-      <td>
-      <div style="text-align: center;">&nbsp;</div>
-      </td>
-      <td>
-      <div style="text-align: center;">&nbsp;</div>
-      </td>
-      <td>
-      <div style="text-align: center;">&nbsp;</div>
-      </td>
-      </tr>
-      <tr>
-      <td height="54">
       <div style="text-align: center;"><span style="font-size: medium; color: #000000;"><em><strong>Аренда Видеорегистратора</strong></em></span></div>
       </td>
       <td>
@@ -445,63 +412,63 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
 <div class="footer">
   <div class="container">
     <div class="one_fourth">
-      <h3>Contact Informations</h3>
-      <p><span class="orange"><strong>Address:</strong></span> <br>
-        No.2 - 123678 street name City, Country</p>
-      <p><span class="orange"><strong>Phone:</strong></span> <br>
+      <h3>Контактная информация</h3><!--
+      <section class="first shadow">
+        <ul>
+          <li>625000 г.Тюмень</li>
+          <li>ул.Тимирязева 10 оф.24</li>
+          <li>Телефон: 8 (3452) 700-575</li>
+          <li>Website: <a href="#" title="">http://renta-car72.ru</a></li>
+          <li>Email: <a href="#" title="">info@renta-car72.ru</a></li>
+        </ul>
+      </section> -->
+      <p><span class="orange"><strong>Адрес:</strong></span> <br>
+        625000 г.Тюмень,<br> ул.Тимирязева 10 оф.24</p>
+      <p><span class="orange"><strong>Телефон:</strong></span> <br>
         + 9 (094) 067 93567<br>
       </p>
       <p><span class="orange"><strong>Email:</strong></span> <br>
-        info@yoursite.com<br>
+        info@renta-car72.ru<br>
       </p>
     </div>
     <!-- four columns ends here -->
     <div class="one_fourth">
-      <h3>Blogroll</h3>
+      <h3>Страницы</h3>
       <ul>
-        <li><a href="#" title="">Development Blog</a></li>
-        <li><a href="#" class="">New Freebies</a></li>
-        <li><a href="#" class="">Themeforest Theme</a></li>
-        <li><a href="#" class=""> Design News</a></li>
-        <li><a href="#" class="">WordPress Theme</a></li>
+        <li><a href="index.html" title="">Главная</a></li>
+        <li><a href="about.html" class="">Автопарк</a></li>
+        <li><a href="portfolio.html" class="">Заказ автомобиля</a></li>
+        <li><a href="blog.html" class="">Стоимость аренды</a></li>
+        <li><a href="features.html" class="">Условия арнеды/проката</a></li>
+        <li><a href="contact.html" class="">Контакты</a></li>
       </ul>
     </div>
     <!-- four columns ends here -->
     <div class="one_fourth">
-      <h3>Archive</h3>
+      <h3>Автомобили</h3>
       <ul>
-        <li><a href="#" class=""> August 2012</a></li>
-        <li><a href="#" class="">July 2012</a></li>
-        <li><a href="#" class="">Juny 2012</a></li>
-        <li><a href="#" class=""> May 2012</a></li>
-        <li><a href="#" class="">April 2012</a></li>
+        <li><a href="#" class="">DAEWOO NEXIA!</a></li>
+        <li><a href="#" class="">DAEWOO NEXIA!</a></li>
+        <li><a href="#" class="">aveo!</a></li>
+        <li><a href="#" class="">hyundai sonata!</a></li>
+        <li><a href="#" class="">granta!</a></li>
       </ul>
     </div>
     <!-- four columns ends here -->
     <div class="one_fourth lastcolumn">
-      <h3>About</h3>
-      <p>Freebix is responsive, simple and clean template with a lot attention to detail. Get it now!</p>
-      <p>Visit <a href="http://anarieldesign.com/" rel="nofollow">Anariel Design</a> and find more interesting things.</p>
+      <h3>Автомобили</h3>
+        <ul>
+          <li><a href="#" class="">almera!</a></li>
+          <li><a href="#" class="">reno logan!</a></li>
+          <li><a href="#" class="">toyota camry!</a></li>
+          <li><a href="#" class="">niva!</a></li>
+          <li><a href="#" class="">shevrole kruz!</a></li>
+        </ul>
     </div>
     <!-- four columns ends here -->
   </div>
   <!-- container ends here -->
 </div>
-<script type="text/javascript">
-    window.onload=function(){
-    var tfrow = document.getElementById('tfhover').rows.length;
-    var tbRow=[];
-    for (var i=1;i<tfrow;i++) {
-        tbRow[i]=document.getElementById('tfhover').rows[i];
-        tbRow[i].onmouseover = function(){
-          this.style.backgroundColor = '#ffffff';
-        };
-        tbRow[i].onmouseout = function() {
-          this.style.backgroundColor = '#d4e3e5';
-        };
-    }
-};
-</script>
 <!-- footer ends here -->
 <!-- Copyright ==================================================
 ================================================== -->

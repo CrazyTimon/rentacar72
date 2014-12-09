@@ -294,3 +294,7 @@ select {
 .right {
 	float: right;
 }
+
+.description_red {
+	color: #f07272;
+}

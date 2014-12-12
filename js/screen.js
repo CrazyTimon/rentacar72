@@ -60,7 +60,9 @@
 // Activate the MainMenu
 
 			  $(document).ready(function(){ 
-				  $("ul.sf-menu").superfish(); 
+				  $("ul.sf-menu").superfish({
+				 		delay : 600
+				  }); 
 			  });
 	//##########################################
 	// Accordion box

@@ -223,6 +223,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
 	display: block;
+	height: 230px;
 }
 .flex-pauseplay span {
 	text-transform: capitalize;
@@ -1258,6 +1259,7 @@ form#contact_form input[type="submit"] {
 	margin-right: 4%;
 	margin-bottom: 10px;
 	float: left;
+	height: 520px;
 }
 .one_sixth {
 	margin-right: 2%;

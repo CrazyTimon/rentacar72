@@ -1259,8 +1259,11 @@ form#contact_form input[type="submit"] {
 	margin-right: 4%;
 	margin-bottom: 10px;
 	float: left;
+}
+.container.latest .one_third {
 	height: 520px;
 }
+
 .one_sixth {
 	margin-right: 2%;
 	margin-bottom:20px;

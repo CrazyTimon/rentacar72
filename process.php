@@ -1,5 +1,5 @@
 <?php 
-$toemail = 'test@youremail.com';
+$toemail = 'info@renta-car72.ru';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];

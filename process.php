@@ -1,6 +1,5 @@
 <?php
-$toemail = '<a href="mailto:viktor_kad@mail.ru">viktor_kad@mail.ru<br>
-<a href="mailto:info@renta-car72.ru">info@renta-car72.ru<br>';
+$toemail = 'viktor_kad@mail.ru';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];

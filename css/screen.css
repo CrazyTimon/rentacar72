@@ -653,6 +653,8 @@ p.copyright {
 	text-align:center;
 	text-shadow:none;
 	padding-top:10px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
 }
 p.copyright a {
 	color:#f07272;

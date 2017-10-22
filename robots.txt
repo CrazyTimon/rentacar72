@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://renta-car72.ru/sitemap.xml
